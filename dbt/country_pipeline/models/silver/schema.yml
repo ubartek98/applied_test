@@ -1,0 +1,23 @@
+version: 2
+
+sources:
+  - name: country_pipeline
+    database: metal-scholar-474117-u1
+    schema: country_pipeline
+    tables:
+      - name: countries_raw
+
+models:
+  - name: countries_silver
+    description: "Cleaned and structured country data from the bronze layer"
+    columns:
+      - name: common_name
+        description: "Common country name"
+      - name: official_name
+        description: "Official country name"
+      - name: capital_city
+        description: "Capital city"
+      - name: currency
+        description: "Currency codes (comma-separated)"
+      - name: created_at
+        description: "Ingestion timestamp"
