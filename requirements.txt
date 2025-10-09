@@ -2,4 +2,7 @@ requests
 google-cloud-bigquery
 google-auth
 google-cloud-core
+dbt
+dbt-core
+dbt-bigquery
 apache-airflow==2.9.2
