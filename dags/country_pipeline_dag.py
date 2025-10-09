@@ -8,8 +8,8 @@ from etl.load_countries_data import extract_and_load_to_bq
 default_args = {
     "owner": "bartosz.urban",
     "depends_on_past": False,
-    "email": ["bartosz.urban@rtbhouse.com"],
-    "email_on_failure": False,
+    "email": ["bartosz.urban98@gmail.com"],
+    "email_on_failure": True,
     "email_on_retry": False,
     "retries": 2,
     "retry_delay": timedelta(minutes=5),

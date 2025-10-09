@@ -2,3 +2,4 @@ requests
 google-cloud-bigquery
 google-auth
 google-cloud-core
+apache-airflow==2.9.2
